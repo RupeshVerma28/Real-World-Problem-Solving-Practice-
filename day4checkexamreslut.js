@@ -21,3 +21,5 @@ const student2 = {
 };
 
 console.log(checkResult(student2));
+
+// check the
