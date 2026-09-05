@@ -7,9 +7,16 @@ function checkDelivery(order) {
   }
 }
 
-const order3 = {
-  customer: "Priya",
+const order1 = {
+  customer: "jack",
   orderAmount: 499,
 };
 
-console.log(checkDelivery(order3));
+console.log(checkDelivery(order1));
+
+const order2 = {
+  customer: "tom",
+  orderAmount: 498,
+};
+
+console.log(checkDelivery(order2));
