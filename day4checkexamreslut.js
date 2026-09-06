@@ -1,5 +1,3 @@
-// Check Exam Result
-
 function checkResult(student) {
   if (student.marks >= 40) {
     return `${student.name} is passed`;
@@ -7,7 +5,6 @@ function checkResult(student) {
     return `${student.name} is failed`;
   }
 }
-
 const student1 = {
   name: "Rahul",
   marks: 65,
@@ -21,5 +18,3 @@ const student2 = {
 };
 
 console.log(checkResult(student2));
-
-// check the
