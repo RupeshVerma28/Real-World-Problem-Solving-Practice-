@@ -13,3 +13,5 @@ const account = {
   pin: 1234,
 };
 console.log(withdrawMoney(account, 2000));
+
+// Contribution test
