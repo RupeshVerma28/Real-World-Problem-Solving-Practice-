@@ -1,6 +1,6 @@
 function transferMoney(sender, receiver, amount) {
   let remain = sender.balance - amount;
-  if ((sender.active = false)) {
+  if (sender.active === false) {
     return "Sender account is inactive";
   } else if ((receiver.active = false)) {
     return "Receiver account is inactive";
